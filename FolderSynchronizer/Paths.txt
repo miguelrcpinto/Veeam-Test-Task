@@ -1,0 +1,8 @@
+Source File Folder -> "C:\Users\migue\OneDrive\Documentos\sourceFileFolder"
+Replica File Folder -> "C:\Users\migue\OneDrive\Documentos\replicaFileFolder"
+Sync Interval in Seconds -> 30
+Log Sync File -> "C:\Users\migue\OneDrive\Documentos\logSyncFile.txt"
+
+
+dotnet build
+dotnet run -- <sourceFolder> <replicaFolder> <syncIntervalInSeconds> <logFilePath>
